@@ -1,6 +1,17 @@
 # project-group-5
-project-group-5
 
-Nhan Mac
+# Authors:
 
-nmac@csu.fullerton.edu
+Nhan Mac (nmac@csu.fullerton.edu)
+<Developer 2 name> (<developer2@csu.fullerton.edu>)
+<Developer 3 name> (<developer3@csu.fullerton.edu>)
+<Developer 4 name> (<developer4@csu.fullerton.edu>)
+
+# Summary
+
+abc
+
+# Features
+
+abc
+

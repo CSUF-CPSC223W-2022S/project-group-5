@@ -3,6 +3,7 @@
 # Authors:
 
 Nhan Mac (nmac@csu.fullerton.edu)
+
 <Developer 2 name> (<developer2@csu.fullerton.edu>)
 
 <Developer 3 name> (<developer3@csu.fullerton.edu>)

@@ -1,5 +1,5 @@
 # project-group-5
-project-group-5 created by GitHub Classroom
+project-group-5
 
 Nhan Mac
 

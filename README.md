@@ -8,7 +8,7 @@ Minh Nguyen (minhnguyenandrew@csu.fullerton.edu)
 
 David Santana(davidsant409@csu.fullerton.edu)
 
-<Developer 4 name> (<developer4@csu.fullerton.edu>)
+Andy Garcia ()
 
 # Summary
 

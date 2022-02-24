@@ -3,7 +3,7 @@ Authors:
 1. Minh Nguyen (minhnguyenandrew@csu.fullerton.edu)
 2. Nhan Mac (nmac@csu.fullerton.edu)
 3. David Santana (davidsant409@csu.fullerton.edu)
-4. Andy Garcia (<developer4@csu.fullerton.edu>)
+4. Andy Garcia (andygarciapc@csu.fullerton.edu)
 
 
 ## Background and motivation

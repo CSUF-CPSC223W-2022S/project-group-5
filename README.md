@@ -13,7 +13,8 @@ iFullerton app requires the user to log into their CSUF campus ID for full use o
 The app shall be an iOS app that allows users to conveniently access food, amenities, and classroom locations on CSUF. The app shall be free for everyone. The app shall not require log-in or authentication. The app targeted users are everyone who visits CSUF (students, staff, guests).
 
 ## Features
-Only 4 features need to be implemented. Some feature's size can be bigger than others. 
+Only 4 features need to be implemented.
+Note: Some feature are more complex/bigger in size compared to others. 
 
 1. Developer Name | GPS tracking: This feature is to provide location tracking of the user to provide recommendations closest to their location and their location on the map. Placeholder can be use until the developer learn how to implement GPS.
 

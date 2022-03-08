@@ -22,7 +22,7 @@ Note: Some feature are more complex/bigger in size compared to others.
 
 3. Minh Nguyen | Map and levels: This feature is to provide the app with a map of CSUF. The map shall include all the levels of each building and all the rooms in each level. (Start with ECS/CS buildings first)
 
-4. Developer Name | Search and Preferences: This feature is to provide users with a pleasant experience when using the app. Some options are search function, light/dark mode, accessibility options, etc.
+4. Nhan Mac | Search and Preferences: This feature is to provide users with a pleasant experience when using the app. Some options are search function, light/dark mode, accessibility options, etc.
 
 5. David Santana | Amenities Reviews: This feature is to provide a list of the anemities CSUF offers. Some amenities are TSU, gym, bookstore, etc. The basic information shall include menu/anemity's website link, operation hours, and description of the place (more info are always welcome).
 

@@ -16,7 +16,7 @@ The app shall be an iOS app that allows users to conveniently access food, ameni
 Only 4 features need to be implemented.
 Note: Some feature are more complex/bigger in size compared to others. 
 
-1. Developer Name | GPS tracking: This feature is to provide location tracking of the user to provide recommendations closest to their location and their location on the map. Placeholder can be use until the developer learn how to implement GPS.
+1. Developer Name | GPS tracking: This feature is to provide location tracking of the user to provide recommendations closest to their location and their location on the map. Placeholder can be use until the developer learn how to implement GPS. Since this is an iOS app, Apple map will be use.
 
 2. David Santana | Food/Reviews: This feature is to provide a list of food and amenities location and their location on the CSUF campus map. Some food places are Carl's Jr., Panda Express, Starbucks, etc. This feature is to add reviews from two main sources, Google reviews and Yelp reviews. The display can be side by side like: [Google Reviews] ✰✰✰✰✰    [Yelp Reviews] ✰✰✰✰✰. The users shall be able to click onto the reviews and be redirected to their respective review sites (even if they don't have any reviews).
 

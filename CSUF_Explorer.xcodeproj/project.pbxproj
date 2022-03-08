@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A6A735227CE7E1500889056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A735127CE7E1500889056 /* AppDelegate.swift */; };
-		7A6A735427CE7E1500889056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A735327CE7E1500889056 /* SceneDelegate.swift */; };
-		7A6A735627CE7E1500889056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A735527CE7E1500889056 /* ViewController.swift */; };
-		7A6A735927CE7E1500889056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A735727CE7E1500889056 /* Main.storyboard */; };
-		7A6A735B27CE7E1800889056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A735A27CE7E1800889056 /* Assets.xcassets */; };
-		7A6A735E27CE7E1800889056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A735C27CE7E1800889056 /* LaunchScreen.storyboard */; };
-		7A6A736927CE7E1800889056 /* CSUF_ExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A736827CE7E1800889056 /* CSUF_ExplorerTests.swift */; };
-		7A6A737327CE7E1800889056 /* CSUF_ExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A737227CE7E1800889056 /* CSUF_ExplorerUITests.swift */; };
-		7A6A737527CE7E1800889056 /* CSUF_ExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A737427CE7E1800889056 /* CSUF_ExplorerUITestsLaunchTests.swift */; };
+		63CED5AC27D7C3FA008D0E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5AB27D7C3FA008D0E04 /* AppDelegate.swift */; };
+		63CED5AE27D7C3FA008D0E04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5AD27D7C3FA008D0E04 /* SceneDelegate.swift */; };
+		63CED5B027D7C3FA008D0E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5AF27D7C3FA008D0E04 /* ViewController.swift */; };
+		63CED5B327D7C3FA008D0E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CED5B127D7C3FA008D0E04 /* Main.storyboard */; };
+		63CED5B527D7C3FB008D0E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CED5B427D7C3FB008D0E04 /* Assets.xcassets */; };
+		63CED5B827D7C3FB008D0E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CED5B627D7C3FB008D0E04 /* LaunchScreen.storyboard */; };
+		63CED5C327D7C3FB008D0E04 /* CSUF_ExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5C227D7C3FB008D0E04 /* CSUF_ExplorerTests.swift */; };
+		63CED5CD27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5CC27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift */; };
+		63CED5CF27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A6A736527CE7E1800889056 /* PBXContainerItemProxy */ = {
+		63CED5BF27D7C3FB008D0E04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7A6A734627CE7E1500889056 /* Project object */;
+			containerPortal = 63CED5A027D7C3FA008D0E04 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A6A734D27CE7E1500889056;
-			remoteInfo = "CSUF Explorer";
+			remoteGlobalIDString = 63CED5A727D7C3FA008D0E04;
+			remoteInfo = CSUF_Explorer;
 		};
-		7A6A736F27CE7E1800889056 /* PBXContainerItemProxy */ = {
+		63CED5C927D7C3FB008D0E04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7A6A734627CE7E1500889056 /* Project object */;
+			containerPortal = 63CED5A027D7C3FA008D0E04 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A6A734D27CE7E1500889056;
-			remoteInfo = "CSUF Explorer";
+			remoteGlobalIDString = 63CED5A727D7C3FA008D0E04;
+			remoteInfo = CSUF_Explorer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A6A734E27CE7E1500889056 /* CSUF Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSUF Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A6A735127CE7E1500889056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A6A735327CE7E1500889056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A6A735527CE7E1500889056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A6A735827CE7E1500889056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A6A735A27CE7E1800889056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A6A735D27CE7E1800889056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A6A735F27CE7E1800889056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A6A736427CE7E1800889056 /* CSUF ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSUF ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A6A736827CE7E1800889056 /* CSUF_ExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerTests.swift; sourceTree = "<group>"; };
-		7A6A736E27CE7E1800889056 /* CSUF ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSUF ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A6A737227CE7E1800889056 /* CSUF_ExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITests.swift; sourceTree = "<group>"; };
-		7A6A737427CE7E1800889056 /* CSUF_ExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63CED5A827D7C3FA008D0E04 /* CSUF_Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSUF_Explorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CED5AB27D7C3FA008D0E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63CED5AD27D7C3FA008D0E04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63CED5AF27D7C3FA008D0E04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63CED5B227D7C3FA008D0E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63CED5B427D7C3FB008D0E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63CED5B727D7C3FB008D0E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63CED5B927D7C3FB008D0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CED5BE27D7C3FB008D0E04 /* CSUF_ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSUF_ExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CED5C227D7C3FB008D0E04 /* CSUF_ExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerTests.swift; sourceTree = "<group>"; };
+		63CED5C827D7C3FB008D0E04 /* CSUF_ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSUF_ExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CED5CC27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITests.swift; sourceTree = "<group>"; };
+		63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A6A734B27CE7E1500889056 /* Frameworks */ = {
+		63CED5A527D7C3FA008D0E04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6A736127CE7E1800889056 /* Frameworks */ = {
+		63CED5BB27D7C3FB008D0E04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6A736B27CE7E1800889056 /* Frameworks */ = {
+		63CED5C527D7C3FB008D0E04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A6A734527CE7E1500889056 = {
+		63CED59F27D7C3FA008D0E04 = {
 			isa = PBXGroup;
 			children = (
-				7A6A735027CE7E1500889056 /* CSUF Explorer */,
-				7A6A736727CE7E1800889056 /* CSUF ExplorerTests */,
-				7A6A737127CE7E1800889056 /* CSUF ExplorerUITests */,
-				7A6A734F27CE7E1500889056 /* Products */,
+				63CED5AA27D7C3FA008D0E04 /* CSUF_Explorer */,
+				63CED5C127D7C3FB008D0E04 /* CSUF_ExplorerTests */,
+				63CED5CB27D7C3FB008D0E04 /* CSUF_ExplorerUITests */,
+				63CED5A927D7C3FA008D0E04 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A6A734F27CE7E1500889056 /* Products */ = {
+		63CED5A927D7C3FA008D0E04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A6A734E27CE7E1500889056 /* CSUF Explorer.app */,
-				7A6A736427CE7E1800889056 /* CSUF ExplorerTests.xctest */,
-				7A6A736E27CE7E1800889056 /* CSUF ExplorerUITests.xctest */,
+				63CED5A827D7C3FA008D0E04 /* CSUF_Explorer.app */,
+				63CED5BE27D7C3FB008D0E04 /* CSUF_ExplorerTests.xctest */,
+				63CED5C827D7C3FB008D0E04 /* CSUF_ExplorerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A6A735027CE7E1500889056 /* CSUF Explorer */ = {
+		63CED5AA27D7C3FA008D0E04 /* CSUF_Explorer */ = {
 			isa = PBXGroup;
 			children = (
-				7A6A735127CE7E1500889056 /* AppDelegate.swift */,
-				7A6A735327CE7E1500889056 /* SceneDelegate.swift */,
-				7A6A735527CE7E1500889056 /* ViewController.swift */,
-				7A6A735727CE7E1500889056 /* Main.storyboard */,
-				7A6A735A27CE7E1800889056 /* Assets.xcassets */,
-				7A6A735C27CE7E1800889056 /* LaunchScreen.storyboard */,
-				7A6A735F27CE7E1800889056 /* Info.plist */,
+				63CED5AB27D7C3FA008D0E04 /* AppDelegate.swift */,
+				63CED5AD27D7C3FA008D0E04 /* SceneDelegate.swift */,
+				63CED5AF27D7C3FA008D0E04 /* ViewController.swift */,
+				63CED5B127D7C3FA008D0E04 /* Main.storyboard */,
+				63CED5B427D7C3FB008D0E04 /* Assets.xcassets */,
+				63CED5B627D7C3FB008D0E04 /* LaunchScreen.storyboard */,
+				63CED5B927D7C3FB008D0E04 /* Info.plist */,
 			);
-			path = "CSUF Explorer";
+			path = CSUF_Explorer;
 			sourceTree = "<group>";
 		};
-		7A6A736727CE7E1800889056 /* CSUF ExplorerTests */ = {
+		63CED5C127D7C3FB008D0E04 /* CSUF_ExplorerTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A6A736827CE7E1800889056 /* CSUF_ExplorerTests.swift */,
+				63CED5C227D7C3FB008D0E04 /* CSUF_ExplorerTests.swift */,
 			);
-			path = "CSUF ExplorerTests";
+			path = CSUF_ExplorerTests;
 			sourceTree = "<group>";
 		};
-		7A6A737127CE7E1800889056 /* CSUF ExplorerUITests */ = {
+		63CED5CB27D7C3FB008D0E04 /* CSUF_ExplorerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7A6A737227CE7E1800889056 /* CSUF_ExplorerUITests.swift */,
-				7A6A737427CE7E1800889056 /* CSUF_ExplorerUITestsLaunchTests.swift */,
+				63CED5CC27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift */,
+				63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */,
 			);
-			path = "CSUF ExplorerUITests";
+			path = CSUF_ExplorerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A6A734D27CE7E1500889056 /* CSUF Explorer */ = {
+		63CED5A727D7C3FA008D0E04 /* CSUF_Explorer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A6A737827CE7E1800889056 /* Build configuration list for PBXNativeTarget "CSUF Explorer" */;
+			buildConfigurationList = 63CED5D227D7C3FB008D0E04 /* Build configuration list for PBXNativeTarget "CSUF_Explorer" */;
 			buildPhases = (
-				7A6A734A27CE7E1500889056 /* Sources */,
-				7A6A734B27CE7E1500889056 /* Frameworks */,
-				7A6A734C27CE7E1500889056 /* Resources */,
+				63CED5A427D7C3FA008D0E04 /* Sources */,
+				63CED5A527D7C3FA008D0E04 /* Frameworks */,
+				63CED5A627D7C3FA008D0E04 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CSUF Explorer";
-			productName = "CSUF Explorer";
-			productReference = 7A6A734E27CE7E1500889056 /* CSUF Explorer.app */;
+			name = CSUF_Explorer;
+			productName = CSUF_Explorer;
+			productReference = 63CED5A827D7C3FA008D0E04 /* CSUF_Explorer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A6A736327CE7E1800889056 /* CSUF ExplorerTests */ = {
+		63CED5BD27D7C3FB008D0E04 /* CSUF_ExplorerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A6A737B27CE7E1800889056 /* Build configuration list for PBXNativeTarget "CSUF ExplorerTests" */;
+			buildConfigurationList = 63CED5D527D7C3FB008D0E04 /* Build configuration list for PBXNativeTarget "CSUF_ExplorerTests" */;
 			buildPhases = (
-				7A6A736027CE7E1800889056 /* Sources */,
-				7A6A736127CE7E1800889056 /* Frameworks */,
-				7A6A736227CE7E1800889056 /* Resources */,
+				63CED5BA27D7C3FB008D0E04 /* Sources */,
+				63CED5BB27D7C3FB008D0E04 /* Frameworks */,
+				63CED5BC27D7C3FB008D0E04 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A6A736627CE7E1800889056 /* PBXTargetDependency */,
+				63CED5C027D7C3FB008D0E04 /* PBXTargetDependency */,
 			);
-			name = "CSUF ExplorerTests";
-			productName = "CSUF ExplorerTests";
-			productReference = 7A6A736427CE7E1800889056 /* CSUF ExplorerTests.xctest */;
+			name = CSUF_ExplorerTests;
+			productName = CSUF_ExplorerTests;
+			productReference = 63CED5BE27D7C3FB008D0E04 /* CSUF_ExplorerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7A6A736D27CE7E1800889056 /* CSUF ExplorerUITests */ = {
+		63CED5C727D7C3FB008D0E04 /* CSUF_ExplorerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A6A737E27CE7E1800889056 /* Build configuration list for PBXNativeTarget "CSUF ExplorerUITests" */;
+			buildConfigurationList = 63CED5D827D7C3FB008D0E04 /* Build configuration list for PBXNativeTarget "CSUF_ExplorerUITests" */;
 			buildPhases = (
-				7A6A736A27CE7E1800889056 /* Sources */,
-				7A6A736B27CE7E1800889056 /* Frameworks */,
-				7A6A736C27CE7E1800889056 /* Resources */,
+				63CED5C427D7C3FB008D0E04 /* Sources */,
+				63CED5C527D7C3FB008D0E04 /* Frameworks */,
+				63CED5C627D7C3FB008D0E04 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A6A737027CE7E1800889056 /* PBXTargetDependency */,
+				63CED5CA27D7C3FB008D0E04 /* PBXTargetDependency */,
 			);
-			name = "CSUF ExplorerUITests";
-			productName = "CSUF ExplorerUITests";
-			productReference = 7A6A736E27CE7E1800889056 /* CSUF ExplorerUITests.xctest */;
+			name = CSUF_ExplorerUITests;
+			productName = CSUF_ExplorerUITests;
+			productReference = 63CED5C827D7C3FB008D0E04 /* CSUF_ExplorerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A6A734627CE7E1500889056 /* Project object */ = {
+		63CED5A027D7C3FA008D0E04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					7A6A734D27CE7E1500889056 = {
+					63CED5A727D7C3FA008D0E04 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					7A6A736327CE7E1800889056 = {
+					63CED5BD27D7C3FB008D0E04 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 7A6A734D27CE7E1500889056;
+						TestTargetID = 63CED5A727D7C3FA008D0E04;
 					};
-					7A6A736D27CE7E1800889056 = {
+					63CED5C727D7C3FB008D0E04 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 7A6A734D27CE7E1500889056;
+						TestTargetID = 63CED5A727D7C3FA008D0E04;
 					};
 				};
 			};
-			buildConfigurationList = 7A6A734927CE7E1500889056 /* Build configuration list for PBXProject "CSUF Explorer" */;
+			buildConfigurationList = 63CED5A327D7C3FA008D0E04 /* Build configuration list for PBXProject "CSUF_Explorer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 7A6A734527CE7E1500889056;
-			productRefGroup = 7A6A734F27CE7E1500889056 /* Products */;
+			mainGroup = 63CED59F27D7C3FA008D0E04;
+			productRefGroup = 63CED5A927D7C3FA008D0E04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A6A734D27CE7E1500889056 /* CSUF Explorer */,
-				7A6A736327CE7E1800889056 /* CSUF ExplorerTests */,
-				7A6A736D27CE7E1800889056 /* CSUF ExplorerUITests */,
+				63CED5A727D7C3FA008D0E04 /* CSUF_Explorer */,
+				63CED5BD27D7C3FB008D0E04 /* CSUF_ExplorerTests */,
+				63CED5C727D7C3FB008D0E04 /* CSUF_ExplorerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A6A734C27CE7E1500889056 /* Resources */ = {
+		63CED5A627D7C3FA008D0E04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6A735E27CE7E1800889056 /* LaunchScreen.storyboard in Resources */,
-				7A6A735B27CE7E1800889056 /* Assets.xcassets in Resources */,
-				7A6A735927CE7E1500889056 /* Main.storyboard in Resources */,
+				63CED5B827D7C3FB008D0E04 /* LaunchScreen.storyboard in Resources */,
+				63CED5B527D7C3FB008D0E04 /* Assets.xcassets in Resources */,
+				63CED5B327D7C3FA008D0E04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6A736227CE7E1800889056 /* Resources */ = {
+		63CED5BC27D7C3FB008D0E04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6A736C27CE7E1800889056 /* Resources */ = {
+		63CED5C627D7C3FB008D0E04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A6A734A27CE7E1500889056 /* Sources */ = {
+		63CED5A427D7C3FA008D0E04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6A735627CE7E1500889056 /* ViewController.swift in Sources */,
-				7A6A735227CE7E1500889056 /* AppDelegate.swift in Sources */,
-				7A6A735427CE7E1500889056 /* SceneDelegate.swift in Sources */,
+				63CED5B027D7C3FA008D0E04 /* ViewController.swift in Sources */,
+				63CED5AC27D7C3FA008D0E04 /* AppDelegate.swift in Sources */,
+				63CED5AE27D7C3FA008D0E04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6A736027CE7E1800889056 /* Sources */ = {
+		63CED5BA27D7C3FB008D0E04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6A736927CE7E1800889056 /* CSUF_ExplorerTests.swift in Sources */,
+				63CED5C327D7C3FB008D0E04 /* CSUF_ExplorerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A6A736A27CE7E1800889056 /* Sources */ = {
+		63CED5C427D7C3FB008D0E04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6A737527CE7E1800889056 /* CSUF_ExplorerUITestsLaunchTests.swift in Sources */,
-				7A6A737327CE7E1800889056 /* CSUF_ExplorerUITests.swift in Sources */,
+				63CED5CF27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift in Sources */,
+				63CED5CD27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7A6A736627CE7E1800889056 /* PBXTargetDependency */ = {
+		63CED5C027D7C3FB008D0E04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A6A734D27CE7E1500889056 /* CSUF Explorer */;
-			targetProxy = 7A6A736527CE7E1800889056 /* PBXContainerItemProxy */;
+			target = 63CED5A727D7C3FA008D0E04 /* CSUF_Explorer */;
+			targetProxy = 63CED5BF27D7C3FB008D0E04 /* PBXContainerItemProxy */;
 		};
-		7A6A737027CE7E1800889056 /* PBXTargetDependency */ = {
+		63CED5CA27D7C3FB008D0E04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A6A734D27CE7E1500889056 /* CSUF Explorer */;
-			targetProxy = 7A6A736F27CE7E1800889056 /* PBXContainerItemProxy */;
+			target = 63CED5A727D7C3FA008D0E04 /* CSUF_Explorer */;
+			targetProxy = 63CED5C927D7C3FB008D0E04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7A6A735727CE7E1500889056 /* Main.storyboard */ = {
+		63CED5B127D7C3FA008D0E04 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A6A735827CE7E1500889056 /* Base */,
+				63CED5B227D7C3FA008D0E04 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7A6A735C27CE7E1800889056 /* LaunchScreen.storyboard */ = {
+		63CED5B627D7C3FB008D0E04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A6A735D27CE7E1800889056 /* Base */,
+				63CED5B727D7C3FB008D0E04 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7A6A737627CE7E1800889056 /* Debug */ = {
+		63CED5D027D7C3FB008D0E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		7A6A737727CE7E1800889056 /* Release */ = {
+		63CED5D127D7C3FB008D0E04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +432,7 @@
 			};
 			name = Release;
 		};
-		7A6A737927CE7E1800889056 /* Debug */ = {
+		63CED5D327D7C3FB008D0E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -440,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CSUF Explorer/Info.plist";
+				INFOPLIST_FILE = CSUF_Explorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.ecs.CSUF-Explorer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		7A6A737A27CE7E1800889056 /* Release */ = {
+		63CED5D427D7C3FB008D0E04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CSUF Explorer/Info.plist";
+				INFOPLIST_FILE = CSUF_Explorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.ecs.CSUF-Explorer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +486,7 @@
 			};
 			name = Release;
 		};
-		7A6A737C27CE7E1800889056 /* Debug */ = {
+		63CED5D627D7C3FB008D0E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,16 +496,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.ecs.CSUF-ExplorerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-ExplorerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSUF Explorer.app/CSUF Explorer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSUF_Explorer.app/CSUF_Explorer";
 			};
 			name = Debug;
 		};
-		7A6A737D27CE7E1800889056 /* Release */ = {
+		63CED5D727D7C3FB008D0E04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -515,16 +515,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.ecs.CSUF-ExplorerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-ExplorerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSUF Explorer.app/CSUF Explorer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSUF_Explorer.app/CSUF_Explorer";
 			};
 			name = Release;
 		};
-		7A6A737F27CE7E1800889056 /* Debug */ = {
+		63CED5D927D7C3FB008D0E04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -532,16 +532,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.ecs.CSUF-ExplorerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-ExplorerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CSUF Explorer";
+				TEST_TARGET_NAME = CSUF_Explorer;
 			};
 			name = Debug;
 		};
-		7A6A738027CE7E1800889056 /* Release */ = {
+		63CED5DA27D7C3FB008D0E04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -549,55 +549,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.ecs.CSUF-ExplorerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-ExplorerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CSUF Explorer";
+				TEST_TARGET_NAME = CSUF_Explorer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A6A734927CE7E1500889056 /* Build configuration list for PBXProject "CSUF Explorer" */ = {
+		63CED5A327D7C3FA008D0E04 /* Build configuration list for PBXProject "CSUF_Explorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A6A737627CE7E1800889056 /* Debug */,
-				7A6A737727CE7E1800889056 /* Release */,
+				63CED5D027D7C3FB008D0E04 /* Debug */,
+				63CED5D127D7C3FB008D0E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A6A737827CE7E1800889056 /* Build configuration list for PBXNativeTarget "CSUF Explorer" */ = {
+		63CED5D227D7C3FB008D0E04 /* Build configuration list for PBXNativeTarget "CSUF_Explorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A6A737927CE7E1800889056 /* Debug */,
-				7A6A737A27CE7E1800889056 /* Release */,
+				63CED5D327D7C3FB008D0E04 /* Debug */,
+				63CED5D427D7C3FB008D0E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A6A737B27CE7E1800889056 /* Build configuration list for PBXNativeTarget "CSUF ExplorerTests" */ = {
+		63CED5D527D7C3FB008D0E04 /* Build configuration list for PBXNativeTarget "CSUF_ExplorerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A6A737C27CE7E1800889056 /* Debug */,
-				7A6A737D27CE7E1800889056 /* Release */,
+				63CED5D627D7C3FB008D0E04 /* Debug */,
+				63CED5D727D7C3FB008D0E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A6A737E27CE7E1800889056 /* Build configuration list for PBXNativeTarget "CSUF ExplorerUITests" */ = {
+		63CED5D827D7C3FB008D0E04 /* Build configuration list for PBXNativeTarget "CSUF_ExplorerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A6A737F27CE7E1800889056 /* Debug */,
-				7A6A738027CE7E1800889056 /* Release */,
+				63CED5D927D7C3FB008D0E04 /* Debug */,
+				63CED5DA27D7C3FB008D0E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7A6A734627CE7E1500889056 /* Project object */;
+	rootObject = 63CED5A027D7C3FA008D0E04 /* Project object */;
 }

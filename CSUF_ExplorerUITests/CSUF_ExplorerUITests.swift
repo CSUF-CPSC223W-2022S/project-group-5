@@ -1,8 +1,8 @@
 //
 //  CSUF_ExplorerUITests.swift
-//  CSUF ExplorerUITests
+//  CSUF_ExplorerUITests
 //
-//  Created by csuftitan on 3/1/22.
+//  Created by David Santana on 3/8/22.
 //
 
 import XCTest

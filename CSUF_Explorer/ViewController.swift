@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  CSUF Explorer
+//  CSUF_Explorer
 //
-//  Created by csuftitan on 3/1/22.
+//  Created by David Santana on 3/8/22.
 //
 
 import UIKit

@@ -24,6 +24,6 @@ Note: Some feature are more complex/bigger in size compared to others.
 
 4. Nhan Mac | Search and Preferences: This feature is to provide users with a pleasant experience when using the app. Some options are search function, light/dark mode, accessibility options, etc.
 
-5. David Santana | Amenities Reviews: This feature is to provide a list of the anemities CSUF offers. Some amenities are TSU, gym, bookstore, etc. The basic information shall include menu/anemity's website link, operation hours, and description of the place (more info are always welcome).
+5. David Santana | Amenities/Reviews: This feature is to provide a list of the anemities CSUF offers. Some amenities are TSU, gym, bookstore, etc. The basic information shall include menu/anemity's website link, operation hours, and description of the place (more info are always welcome).
 
 6. Developer Name | Expanded options beyond CSUF: Some food and amenities places are very close to CSUF but it is not part of the campus. These places includes PLAYlive Nation, 85 degrees, Target, etc. These extra info can be added to their respective features to make the app more "featureful". The expanded area should be kept to walkable distance (Anything across the street from CSUF). 

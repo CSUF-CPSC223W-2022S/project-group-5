@@ -16,6 +16,10 @@
 		63CED5C327D7C3FB008D0E04 /* CSUF_ExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5C227D7C3FB008D0E04 /* CSUF_ExplorerTests.swift */; };
 		63CED5CD27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5CC27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift */; };
 		63CED5CF27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */; };
+		63E4795A27D9074D0066A71E /* AmenityLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4795927D9074D0066A71E /* AmenityLocation.swift */; };
+		63FB5B3527D85D4500B2FAE5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FB5B3427D85D4500B2FAE5 /* Location.swift */; };
+		63FB5B3727D861E800B2FAE5 /* FoodLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FB5B3627D861E800B2FAE5 /* FoodLocation.swift */; };
+		63FB5B3927D9047000B2FAE5 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FB5B3827D9047000B2FAE5 /* LocationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		63CED5C827D7C3FB008D0E04 /* CSUF_ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSUF_ExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CED5CC27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITests.swift; sourceTree = "<group>"; };
 		63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63E4795927D9074D0066A71E /* AmenityLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenityLocation.swift; sourceTree = "<group>"; };
+		63FB5B3427D85D4500B2FAE5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		63FB5B3627D861E800B2FAE5 /* FoodLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLocation.swift; sourceTree = "<group>"; };
+		63FB5B3827D9047000B2FAE5 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		63CED59F27D7C3FA008D0E04 = {
 			isa = PBXGroup;
 			children = (
+				63FB5B3327D85D3200B2FAE5 /* Types */,
 				63CED5AA27D7C3FA008D0E04 /* CSUF_Explorer */,
 				63CED5C127D7C3FB008D0E04 /* CSUF_ExplorerTests */,
 				63CED5CB27D7C3FB008D0E04 /* CSUF_ExplorerUITests */,
@@ -114,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				63CED5C227D7C3FB008D0E04 /* CSUF_ExplorerTests.swift */,
+				63FB5B3827D9047000B2FAE5 /* LocationTests.swift */,
 			);
 			path = CSUF_ExplorerTests;
 			sourceTree = "<group>";
@@ -125,6 +135,16 @@
 				63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */,
 			);
 			path = CSUF_ExplorerUITests;
+			sourceTree = "<group>";
+		};
+		63FB5B3327D85D3200B2FAE5 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				63FB5B3427D85D4500B2FAE5 /* Location.swift */,
+				63FB5B3627D861E800B2FAE5 /* FoodLocation.swift */,
+				63E4795927D9074D0066A71E /* AmenityLocation.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +280,9 @@
 			files = (
 				63CED5B027D7C3FA008D0E04 /* ViewController.swift in Sources */,
 				63CED5AC27D7C3FA008D0E04 /* AppDelegate.swift in Sources */,
+				63E4795A27D9074D0066A71E /* AmenityLocation.swift in Sources */,
+				63FB5B3727D861E800B2FAE5 /* FoodLocation.swift in Sources */,
+				63FB5B3527D85D4500B2FAE5 /* Location.swift in Sources */,
 				63CED5AE27D7C3FA008D0E04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FB5B3927D9047000B2FAE5 /* LocationTests.swift in Sources */,
 				63CED5C327D7C3FB008D0E04 /* CSUF_ExplorerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

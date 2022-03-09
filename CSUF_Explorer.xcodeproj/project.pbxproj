@@ -16,6 +16,10 @@
 		63CED5C327D7C3FB008D0E04 /* CSUF_ExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5C227D7C3FB008D0E04 /* CSUF_ExplorerTests.swift */; };
 		63CED5CD27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5CC27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift */; };
 		63CED5CF27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */; };
+		63E4795D27D911020066A71E /* Feature1Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4795C27D911020066A71E /* Feature1Storyboard.storyboard */; };
+		63E4795F27D912BF0066A71E /* Feature2Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4795E27D912BF0066A71E /* Feature2Storyboard.storyboard */; };
+		63E4796127D913BD0066A71E /* Feature3Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4796027D913BD0066A71E /* Feature3Storyboard.storyboard */; };
+		63E4796327D914850066A71E /* Feature4Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4796227D914850066A71E /* Feature4Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		63CED5C827D7C3FB008D0E04 /* CSUF_ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSUF_ExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CED5CC27D7C3FB008D0E04 /* CSUF_ExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITests.swift; sourceTree = "<group>"; };
 		63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSUF_ExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63E4795C27D911020066A71E /* Feature1Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feature1Storyboard.storyboard; sourceTree = "<group>"; };
+		63E4795E27D912BF0066A71E /* Feature2Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feature2Storyboard.storyboard; sourceTree = "<group>"; };
+		63E4796027D913BD0066A71E /* Feature3Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feature3Storyboard.storyboard; sourceTree = "<group>"; };
+		63E4796227D914850066A71E /* Feature4Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feature4Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		63CED5AA27D7C3FA008D0E04 /* CSUF_Explorer */ = {
 			isa = PBXGroup;
 			children = (
+				63E4795B27D910D90066A71E /* Features Storyboards */,
 				63CED5AB27D7C3FA008D0E04 /* AppDelegate.swift */,
 				63CED5AD27D7C3FA008D0E04 /* SceneDelegate.swift */,
 				63CED5AF27D7C3FA008D0E04 /* ViewController.swift */,
@@ -125,6 +134,17 @@
 				63CED5CE27D7C3FB008D0E04 /* CSUF_ExplorerUITestsLaunchTests.swift */,
 			);
 			path = CSUF_ExplorerUITests;
+			sourceTree = "<group>";
+		};
+		63E4795B27D910D90066A71E /* Features Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				63E4795C27D911020066A71E /* Feature1Storyboard.storyboard */,
+				63E4795E27D912BF0066A71E /* Feature2Storyboard.storyboard */,
+				63E4796027D913BD0066A71E /* Feature3Storyboard.storyboard */,
+				63E4796227D914850066A71E /* Feature4Storyboard.storyboard */,
+			);
+			path = "Features Storyboards";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,10 @@
 			files = (
 				63CED5B827D7C3FB008D0E04 /* LaunchScreen.storyboard in Resources */,
 				63CED5B527D7C3FB008D0E04 /* Assets.xcassets in Resources */,
+				63E4796127D913BD0066A71E /* Feature3Storyboard.storyboard in Resources */,
+				63E4795D27D911020066A71E /* Feature1Storyboard.storyboard in Resources */,
+				63E4795F27D912BF0066A71E /* Feature2Storyboard.storyboard in Resources */,
+				63E4796327D914850066A71E /* Feature4Storyboard.storyboard in Resources */,
 				63CED5B327D7C3FA008D0E04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -31,6 +31,12 @@
                     <view key="view" contentMode="scaleToFill" id="gxl-b0-vVd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nJP-Rz-00D">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QeQ-m4-S3e"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
@@ -38,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FyL-hD-whc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661" y="96"/>
+            <point key="canvasLocation" x="660.86956521739137" y="95.758928571428569"/>
         </scene>
     </scenes>
     <resources>

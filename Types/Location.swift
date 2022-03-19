@@ -20,4 +20,8 @@ class Location {
         self.long = long
         self.name = name
     }
+
+    static func ==(left: Location, right: String) -> Bool {
+        return left.name == right
+    }
 }

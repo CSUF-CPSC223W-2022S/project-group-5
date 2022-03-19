@@ -24,4 +24,17 @@ class LocationTests: XCTestCase {
         let newAmenityLocation = AmenityLocation(lat: 1.1, long: 1.2, name: "Gym", type: "health")
         XCTAssertEqual(newAmenityLocation.type, "health")
     }
+
+    func testLocationSearch() {
+        let location1 = Location(lat: 1.1, long: 1.2, name: "Location 1")
+        let location2 = Location(lat: 1.1, long: 1.2, name: "Location 2")
+        let location3 = Location(lat: 1.1, long: 1.2, name: "Location 3")
+        let allLocations = [location1, location2, location3]
+
+        let searchList = SearchLocation(locationList: allLocations)
+        XCTAssertEqual(searchList.findLocation(name: "Location 2"), 1)
+        XCTAssertEqual(searchList.findLocation(name: "Location 1"), 0)
+        XCTAssertEqual(searchList.findLocation(name: "Location 3"), 2)
+        XCTAssertEqual(searchList.findLocation(name: "Location 10"), -1)
+    }
 }

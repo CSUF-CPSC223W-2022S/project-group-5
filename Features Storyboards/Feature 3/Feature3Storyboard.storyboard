@@ -27,7 +27,7 @@
         <!--Reviews-->
         <scene sceneID="gg3-P3-rSb">
             <objects>
-                <viewController id="5wn-F4-QdN" sceneMemberID="viewController">
+                <viewController id="5wn-F4-QdN" customClass="F3ViewController" customModule="CSUF_Explorer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jhc-Eo-D0w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

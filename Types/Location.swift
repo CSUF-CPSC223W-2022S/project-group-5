@@ -12,8 +12,10 @@ class Location {
     var long: Double
     var name: String
     var description: String?
-    var hours: [String: String]?
+    var hours = ["monday": ""]
     var type: String?
+    var logo: String?
+    var address: String?
 
     init(lat: Double, long: Double, name: String) {
         self.lat = lat

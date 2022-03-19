@@ -24,19 +24,35 @@
             </objects>
             <point key="canvasLocation" x="-398" y="64"/>
         </scene>
-        <!--List-->
+        <!--CSUF Locations-->
         <scene sceneID="JTv-fH-aVu">
             <objects>
-                <viewController id="Qwu-06-su1" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="CSUF Locations" id="Qwu-06-su1" customClass="F2ViewController" customModule="CSUF_Explorer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KWf-nd-2g5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xmD-9s-FQc">
+                                <rect key="frame" x="20" y="140" width="374" height="673"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="qQ4-kA-0ml"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="xmD-9s-FQc" firstAttribute="top" secondItem="qQ4-kA-0ml" secondAttribute="top" id="1ux-MA-2gk"/>
+                            <constraint firstItem="xmD-9s-FQc" firstAttribute="leading" secondItem="qQ4-kA-0ml" secondAttribute="leading" constant="20" id="702-RK-0oN"/>
+                            <constraint firstItem="qQ4-kA-0ml" firstAttribute="trailing" secondItem="xmD-9s-FQc" secondAttribute="trailing" constant="20" id="9q6-Yo-d6u"/>
+                            <constraint firstItem="qQ4-kA-0ml" firstAttribute="bottom" secondItem="xmD-9s-FQc" secondAttribute="bottom" id="vJN-i1-NAR"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="List" image="fork.knife" catalog="system" id="vhN-Uf-TxY"/>
-                    <navigationItem key="navigationItem" id="XGX-mP-Cne"/>
+                    <navigationItem key="navigationItem" title="CSUF Locations" id="XGX-mP-Cne"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="locationTable" destination="xmD-9s-FQc" id="cHf-hh-ESv"/>
+                        <outlet property="view" destination="xmD-9s-FQc" id="l6P-kZ-b0B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqh-tB-xzB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -23,6 +23,7 @@
 		7A6A5BAA27D991DB00EFF09F /* CSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A5BA927D991DB00EFF09F /* CSE.swift */; };
 		7A6A5BAC27D9925700EFF09F /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A5BAB27D9925700EFF09F /* Identifiers.swift */; };
 		7A6A5BB127D99AC300EFF09F /* MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A5BAD27D992C400EFF09F /* MapTests.swift */; };
+		7A6A5CDC27DA5E3900EFF09F /* SB1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A5CDB27DA5E3900EFF09F /* SB1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		7A6A5BA927D991DB00EFF09F /* CSE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSE.swift; sourceTree = "<group>"; };
 		7A6A5BAB27D9925700EFF09F /* Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
 		7A6A5BAD27D992C400EFF09F /* MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTests.swift; sourceTree = "<group>"; };
+		7A6A5CDB27DA5E3900EFF09F /* SB1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SB1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				63E4795C27D911020066A71E /* Feature1Storyboard.storyboard */,
+				7A6A5CDB27DA5E3900EFF09F /* SB1ViewController.swift */,
 				63E4795E27D912BF0066A71E /* Feature2Storyboard.storyboard */,
 				63E4796027D913BD0066A71E /* Feature3Storyboard.storyboard */,
 				63E4796227D914850066A71E /* Feature4Storyboard.storyboard */,
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CED5B027D7C3FA008D0E04 /* ViewController.swift in Sources */,
+				7A6A5CDC27DA5E3900EFF09F /* SB1ViewController.swift in Sources */,
 				63CED5AC27D7C3FA008D0E04 /* AppDelegate.swift in Sources */,
 				7A6A5BAC27D9925700EFF09F /* Identifiers.swift in Sources */,
 				7A6A5BAA27D991DB00EFF09F /* CSE.swift in Sources */,

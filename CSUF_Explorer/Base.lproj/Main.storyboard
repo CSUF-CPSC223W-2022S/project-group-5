@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -30,7 +31,9 @@
         <scene sceneID="bpP-Vz-LCh">
             <objects>
                 <viewControllerPlaceholder storyboardName="Feature1Storyboard" id="6Vf-kb-Xph" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="JaC-bL-ceV"/>
+                    <tabBarItem key="tabBarItem" title="Map" selectedImage="map" catalog="system" id="JaC-bL-ceV" propertyAccessControl="none">
+                        <imageReference key="image" image="map" catalog="system" symbolScale="medium"/>
+                    </tabBarItem>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ErJ-20-bGv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -67,4 +70,7 @@
             <point key="canvasLocation" x="878" y="-13"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="map" catalog="system" width="128" height="110"/>
+    </resources>
 </document>

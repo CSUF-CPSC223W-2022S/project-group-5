@@ -19,6 +19,7 @@ class SB1ViewController: UIViewController {
     let locationManager = CLLocationManager()
     let radius: CLLocationDistance = 700
 
+    
     let startingLocation = CLLocation(latitude: 33.88194108771796, longitude: -117.88534289916993)
     override func viewDidLoad() {
         super.viewDidLoad()

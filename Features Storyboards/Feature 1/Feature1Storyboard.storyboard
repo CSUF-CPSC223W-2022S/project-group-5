@@ -1,53 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dew-1L-goC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dew-1L-goC">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-<<<<<<< HEAD:CSUF_Explorer/Features Storyboards/Feature1Storyboard.storyboard
         <!--Map-->
         <scene sceneID="h9i-hp-hg2">
             <objects>
                 <navigationController title="Map" id="dew-1L-goC" sceneMemberID="viewController">
-=======
-        <!--Navigation Controller-->
-        <scene sceneID="h9i-hp-hg2">
-            <objects>
-                <navigationController id="dew-1L-goC" sceneMemberID="viewController">
->>>>>>> main:Features Storyboards/Feature 1/Feature1Storyboard.storyboard
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UP3-rR-Jqm">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="4fZ-bR-6SH" kind="relationship" relationship="rootViewController" id="cfQ-wD-8is"/>
+                        <segue destination="rab-KZ-hDg" kind="relationship" relationship="rootViewController" id="cfQ-wD-8is"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfu-bX-sh9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-112" y="96"/>
         </scene>
-        <!--Home-->
+        <!--View Controller-->
         <scene sceneID="Yq9-mC-qAp">
             <objects>
-<<<<<<< HEAD:CSUF_Explorer/Features Storyboards/Feature1Storyboard.storyboard
                 <viewController id="4fZ-bR-6SH" customClass="SB1ViewController" customModule="CSUF_Explorer" customModuleProvider="target" sceneMemberID="viewController">
-=======
-                <viewController id="4fZ-bR-6SH" customClass="F1ViewController" customModule="CSUF_Explorer" sceneMemberID="viewController">
->>>>>>> main:Features Storyboards/Feature 1/Feature1Storyboard.storyboard
                     <view key="view" contentMode="scaleToFill" id="gxl-b0-vVd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nJP-Rz-00D">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QeQ-m4-S3e"/>
-<<<<<<< HEAD:CSUF_Explorer/Features Storyboards/Feature1Storyboard.storyboard
                         <color key="backgroundColor" red="0.82745099070000006" green="0.46274507050000002" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="nJP-Rz-00D" firstAttribute="bottom" secondItem="QeQ-m4-S3e" secondAttribute="bottom" id="56m-Vf-Ptu"/>
@@ -55,36 +43,39 @@
                             <constraint firstItem="QeQ-m4-S3e" firstAttribute="top" secondItem="nJP-Rz-00D" secondAttribute="top" id="hDV-Gg-ZxT"/>
                             <constraint firstItem="nJP-Rz-00D" firstAttribute="leading" secondItem="QeQ-m4-S3e" secondAttribute="leading" id="tMe-VC-YR9"/>
                         </constraints>
-=======
-                        <color key="backgroundColor" systemColor="systemGray6Color"/>
-                        <color key="tintColor" systemColor="tintColor"/>
->>>>>>> main:Features Storyboards/Feature 1/Feature1Storyboard.storyboard
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="map" catalog="system" id="nWj-Mf-22r"/>
                     <navigationItem key="navigationItem" id="uq5-GI-PCV"/>
-<<<<<<< HEAD:CSUF_Explorer/Features Storyboards/Feature1Storyboard.storyboard
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="mapView" destination="nJP-Rz-00D" id="Zzs-wG-aRx"/>
                     </connections>
-=======
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
->>>>>>> main:Features Storyboards/Feature 1/Feature1Storyboard.storyboard
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FyL-hD-whc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1571.0144927536232" y="95.758928571428569"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="ZUP-dN-WP7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rab-KZ-hDg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="7vo-qA-Ddz"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="VSO-Ik-vlR"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e4E-bd-yEU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4fZ-bR-6SH" kind="relationship" relationship="rootViewController" id="3iE-s9-CE7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3N-r8-FgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="660.86956521739137" y="95.758928571428569"/>
         </scene>
     </scenes>
-<<<<<<< HEAD:CSUF_Explorer/Features Storyboards/Feature1Storyboard.storyboard
-=======
     <resources>
         <image name="map" catalog="system" width="128" height="110"/>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
->>>>>>> main:Features Storyboards/Feature 1/Feature1Storyboard.storyboard
 </document>

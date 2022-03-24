@@ -14,40 +14,28 @@ struct Building {
   var longtitude: CLLocationDegrees
 }
 
-
 class SB1ViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
-    let radius: CLLocationDistance = 500
+    let radius: CLLocationDistance = 700
 
     let startingLocation = CLLocation(latitude: 33.88194108771796, longitude: -117.88534289916993)
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        //setting starting location
         setStartingPosition()
         let Buildings = getBuildingLocation()
         setAnnotation(Buildings: Buildings)
-        
-        //set image
-//        self.title = "Map"
-        self.tabBarItem.image = UIImage(named: "Map")
-        
-        
+        self.tabBarItem.image = UIImage(named: "CSUF MAP")
     }
     
     override func viewDidAppear(_ animated: Bool) {
         isLocationServiceEnabled()
     }
     
-    
     func setStartingPosition(){
-        
         let position =  MKCoordinateRegion(center: startingLocation.coordinate,
                                            latitudinalMeters: radius,
                                            longitudinalMeters: radius)
-    
         mapView.setRegion(position, animated: true)
     }
     
@@ -61,7 +49,6 @@ class SB1ViewController: UIViewController {
     }
     
     func checkAuthorizationStatus(){
-        
         let status = CLLocationManager.authorizationStatus()
         if status == .authorizedAlways || status == .authorizedWhenInUse {
             mapView.showsUserLocation = true
@@ -73,26 +60,19 @@ class SB1ViewController: UIViewController {
             locationManager.requestWhenInUseAuthorization()
             mapView.showsUserLocation = true
         }
-        
     }
     
     func displayAlert(isServiceEnabled:Bool){
         let serviceEnableMessage = "Location services must to be enabled. You can enable location services in your settings."
         let authorizationStatusMessage = "Please authorize this app for more map features"
-        
         let message = isServiceEnabled ? serviceEnableMessage : authorizationStatusMessage
-        
         let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
-        
         //create ok button
         let acceptAction = UIAlertAction(title: "OK", style: .default)
-        
         //add ok button to alert
         alert.addAction(acceptAction)
         self.present(alert, animated: true, completion: nil)
-        
     }
-    
     
     func getBuildingLocation() -> [Building]{
         return [
@@ -109,15 +89,13 @@ class SB1ViewController: UIViewController {
     }
     
     func setAnnotation(Buildings:[Building]){
-        
         for Building in Buildings {
             let annotation = MKPointAnnotation()
             annotation.title = Building.name
-            
-            
             annotation.coordinate = CLLocationCoordinate2D(latitude:Building.lattitude,
                                                          longitude: Building.longtitude)
             mapView.addAnnotation(annotation)
         }
     }
+    
 }

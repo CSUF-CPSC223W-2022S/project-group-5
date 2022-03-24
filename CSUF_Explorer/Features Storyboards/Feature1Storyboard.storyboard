@@ -46,7 +46,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="uq5-GI-PCV"/>
                     <connections>
-                        <outlet property="mapView" destination="nJP-Rz-00D" id="zeB-40-Ror"/>
+                        <outlet property="mapView" destination="nJP-Rz-00D" id="Zzs-wG-aRx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FyL-hD-whc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6306C67127E5AC8000F17661 /* F2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C67027E5AC8000F17661 /* F2ViewController.swift */; };
+		6306C67327E5AC9100F17661 /* F3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C67227E5AC9100F17661 /* F3ViewController.swift */; };
+		6306C67527E5AC9A00F17661 /* F4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C67427E5AC9A00F17661 /* F4ViewController.swift */; };
+		6306C67827E64C5000F17661 /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C67627E64C5000F17661 /* LocationCard.swift */; };
+		6306C67927E64C5000F17661 /* LocationCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6306C67727E64C5000F17661 /* LocationCard.xib */; };
+		6306C67A27E64D5800F17661 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D59DE27D937EA00F98001 /* Location.swift */; };
+		6306C67B27E64D6A00F17661 /* AmenityLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D59DF27D937EA00F98001 /* AmenityLocation.swift */; };
+		6306C67C27E64D6D00F17661 /* FoodLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D59E027D937EA00F98001 /* FoodLocation.swift */; };
+		6306C67D27E64D7000F17661 /* SearchLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9DF4B27DD13D7002D3C53 /* SearchLocation.swift */; };
+		6306C68327E652D600F17661 /* RobotoSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6306C67F27E652D600F17661 /* RobotoSlab-Medium.ttf */; };
+		6306C68427E652D600F17661 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6306C68027E652D600F17661 /* RobotoSlab-Bold.ttf */; };
+		6306C68527E652D600F17661 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6306C68127E652D600F17661 /* RobotoSlab-Regular.ttf */; };
+		6306C68627E652D600F17661 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6306C68227E652D600F17661 /* RobotoSlab-Light.ttf */; };
+		631C6B5B27DA5F6200ACDAED /* F1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631C6B5A27DA5F6200ACDAED /* F1ViewController.swift */; };
+		635D59DA27D92F5900F98001 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D59D927D92F5900F98001 /* LocationTests.swift */; };
+		635D59E127D937EA00F98001 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D59DE27D937EA00F98001 /* Location.swift */; };
+		635D59E227D937EA00F98001 /* AmenityLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D59DF27D937EA00F98001 /* AmenityLocation.swift */; };
+		635D59E327D937EA00F98001 /* FoodLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D59E027D937EA00F98001 /* FoodLocation.swift */; };
+		63B9DF4C27DD13D7002D3C53 /* SearchLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9DF4B27DD13D7002D3C53 /* SearchLocation.swift */; };
 		63CED5AC27D7C3FA008D0E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5AB27D7C3FA008D0E04 /* AppDelegate.swift */; };
 		63CED5AE27D7C3FA008D0E04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5AD27D7C3FA008D0E04 /* SceneDelegate.swift */; };
 		63CED5B027D7C3FA008D0E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED5AF27D7C3FA008D0E04 /* ViewController.swift */; };
@@ -40,6 +59,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6306C67027E5AC8000F17661 /* F2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F2ViewController.swift; sourceTree = "<group>"; };
+		6306C67227E5AC9100F17661 /* F3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F3ViewController.swift; sourceTree = "<group>"; };
+		6306C67427E5AC9A00F17661 /* F4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F4ViewController.swift; sourceTree = "<group>"; };
+		6306C67627E64C5000F17661 /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
+		6306C67727E64C5000F17661 /* LocationCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationCard.xib; sourceTree = "<group>"; };
+		6306C67F27E652D600F17661 /* RobotoSlab-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Medium.ttf"; sourceTree = "<group>"; };
+		6306C68027E652D600F17661 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		6306C68127E652D600F17661 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		6306C68227E652D600F17661 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		631C6B5A27DA5F6200ACDAED /* F1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ViewController.swift; sourceTree = "<group>"; };
+		635D59D927D92F5900F98001 /* LocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		635D59DE27D937EA00F98001 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		635D59DF27D937EA00F98001 /* AmenityLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmenityLocation.swift; sourceTree = "<group>"; };
+		635D59E027D937EA00F98001 /* FoodLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodLocation.swift; sourceTree = "<group>"; };
+		63B9DF4B27DD13D7002D3C53 /* SearchLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocation.swift; sourceTree = "<group>"; };
 		63CED5A827D7C3FA008D0E04 /* CSUF_Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSUF_Explorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CED5AB27D7C3FA008D0E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63CED5AD27D7C3FA008D0E04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,11 +118,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6306C66C27E5AC1F00F17661 /* Feature 1 */ = {
+			isa = PBXGroup;
+			children = (
+				631C6B5A27DA5F6200ACDAED /* F1ViewController.swift */,
+				63E4795C27D911020066A71E /* Feature1Storyboard.storyboard */,
+			);
+			path = "Feature 1";
+			sourceTree = "<group>";
+		};
+		6306C66D27E5AC4500F17661 /* Feature 2 */ = {
+			isa = PBXGroup;
+			children = (
+				63E4795E27D912BF0066A71E /* Feature2Storyboard.storyboard */,
+				6306C67027E5AC8000F17661 /* F2ViewController.swift */,
+				6306C67627E64C5000F17661 /* LocationCard.swift */,
+				6306C67727E64C5000F17661 /* LocationCard.xib */,
+			);
+			path = "Feature 2";
+			sourceTree = "<group>";
+		};
+		6306C66E27E5AC5400F17661 /* Feature 3 */ = {
+			isa = PBXGroup;
+			children = (
+				63E4796027D913BD0066A71E /* Feature3Storyboard.storyboard */,
+				6306C67227E5AC9100F17661 /* F3ViewController.swift */,
+			);
+			path = "Feature 3";
+			sourceTree = "<group>";
+		};
+		6306C66F27E5AC5D00F17661 /* Feature 4 */ = {
+			isa = PBXGroup;
+			children = (
+				63E4796227D914850066A71E /* Feature4Storyboard.storyboard */,
+				6306C67427E5AC9A00F17661 /* F4ViewController.swift */,
+			);
+			path = "Feature 4";
+			sourceTree = "<group>";
+		};
+		6306C67E27E652B200F17661 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6306C68027E652D600F17661 /* RobotoSlab-Bold.ttf */,
+				6306C68227E652D600F17661 /* RobotoSlab-Light.ttf */,
+				6306C67F27E652D600F17661 /* RobotoSlab-Medium.ttf */,
+				6306C68127E652D600F17661 /* RobotoSlab-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		635D59DD27D937EA00F98001 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				635D59DE27D937EA00F98001 /* Location.swift */,
+				635D59DF27D937EA00F98001 /* AmenityLocation.swift */,
+				635D59E027D937EA00F98001 /* FoodLocation.swift */,
+				63B9DF4B27DD13D7002D3C53 /* SearchLocation.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		63CED59F27D7C3FA008D0E04 = {
 			isa = PBXGroup;
 			children = (
+				635D59DD27D937EA00F98001 /* Types */,
+				63E4795B27D910D90066A71E /* Features Storyboards */,
 				63CED5AA27D7C3FA008D0E04 /* CSUF_Explorer */,
-				63CED5C127D7C3FB008D0E04 /* CSUF_ExplorerTests */,
 				63CED5CB27D7C3FB008D0E04 /* CSUF_ExplorerUITests */,
 				63CED5A927D7C3FA008D0E04 /* Products */,
 			);
@@ -107,7 +202,8 @@
 		63CED5AA27D7C3FA008D0E04 /* CSUF_Explorer */ = {
 			isa = PBXGroup;
 			children = (
-				63E4795B27D910D90066A71E /* Features Storyboards */,
+				6306C67E27E652B200F17661 /* Fonts */,
+				63CED5C127D7C3FB008D0E04 /* CSUF_ExplorerTests */,
 				63CED5AB27D7C3FA008D0E04 /* AppDelegate.swift */,
 				63CED5AD27D7C3FA008D0E04 /* SceneDelegate.swift */,
 				63CED5AF27D7C3FA008D0E04 /* ViewController.swift */,
@@ -123,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				63CED5C227D7C3FB008D0E04 /* CSUF_ExplorerTests.swift */,
+				635D59D927D92F5900F98001 /* LocationTests.swift */,
 			);
 			path = CSUF_ExplorerTests;
 			sourceTree = "<group>";
@@ -139,10 +236,10 @@
 		63E4795B27D910D90066A71E /* Features Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				63E4795C27D911020066A71E /* Feature1Storyboard.storyboard */,
-				63E4795E27D912BF0066A71E /* Feature2Storyboard.storyboard */,
-				63E4796027D913BD0066A71E /* Feature3Storyboard.storyboard */,
-				63E4796227D914850066A71E /* Feature4Storyboard.storyboard */,
+				6306C66F27E5AC5D00F17661 /* Feature 4 */,
+				6306C66E27E5AC5400F17661 /* Feature 3 */,
+				6306C66D27E5AC4500F17661 /* Feature 2 */,
+				6306C66C27E5AC1F00F17661 /* Feature 1 */,
 			);
 			path = "Features Storyboards";
 			sourceTree = "<group>";
@@ -255,9 +352,14 @@
 				63CED5B527D7C3FB008D0E04 /* Assets.xcassets in Resources */,
 				63E4796127D913BD0066A71E /* Feature3Storyboard.storyboard in Resources */,
 				63E4795D27D911020066A71E /* Feature1Storyboard.storyboard in Resources */,
+				6306C67927E64C5000F17661 /* LocationCard.xib in Resources */,
 				63E4795F27D912BF0066A71E /* Feature2Storyboard.storyboard in Resources */,
+				6306C68427E652D600F17661 /* RobotoSlab-Bold.ttf in Resources */,
+				6306C68327E652D600F17661 /* RobotoSlab-Medium.ttf in Resources */,
+				6306C68627E652D600F17661 /* RobotoSlab-Light.ttf in Resources */,
 				63E4796327D914850066A71E /* Feature4Storyboard.storyboard in Resources */,
 				63CED5B327D7C3FA008D0E04 /* Main.storyboard in Resources */,
+				6306C68527E652D600F17661 /* RobotoSlab-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +384,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6306C67B27E64D6A00F17661 /* AmenityLocation.swift in Sources */,
+				6306C67827E64C5000F17661 /* LocationCard.swift in Sources */,
 				63CED5B027D7C3FA008D0E04 /* ViewController.swift in Sources */,
 				63CED5AC27D7C3FA008D0E04 /* AppDelegate.swift in Sources */,
+				6306C67C27E64D6D00F17661 /* FoodLocation.swift in Sources */,
+				6306C67127E5AC8000F17661 /* F2ViewController.swift in Sources */,
+				6306C67A27E64D5800F17661 /* Location.swift in Sources */,
+				6306C67527E5AC9A00F17661 /* F4ViewController.swift in Sources */,
 				63CED5AE27D7C3FA008D0E04 /* SceneDelegate.swift in Sources */,
+				631C6B5B27DA5F6200ACDAED /* F1ViewController.swift in Sources */,
+				6306C67D27E64D7000F17661 /* SearchLocation.swift in Sources */,
+				6306C67327E5AC9100F17661 /* F3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +403,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635D59E227D937EA00F98001 /* AmenityLocation.swift in Sources */,
+				635D59DA27D92F5900F98001 /* LocationTests.swift in Sources */,
+				635D59E327D937EA00F98001 /* FoodLocation.swift in Sources */,
+				63B9DF4C27DD13D7002D3C53 /* SearchLocation.swift in Sources */,
+				635D59E127D937EA00F98001 /* Location.swift in Sources */,
 				63CED5C327D7C3FB008D0E04 /* CSUF_ExplorerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,8 +577,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CSUF_Explorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -477,6 +595,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,8 +607,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CSUF_Explorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -504,6 +625,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -517,6 +639,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -536,6 +659,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -554,6 +678,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-ExplorerUITests";
@@ -571,6 +696,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david.CSUF-ExplorerUITests";

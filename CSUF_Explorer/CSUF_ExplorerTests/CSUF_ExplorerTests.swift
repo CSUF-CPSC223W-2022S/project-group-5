@@ -5,11 +5,10 @@
 //  Created by David Santana on 3/8/22.
 //
 
-import XCTest
 @testable import CSUF_Explorer
+import XCTest
 
 class CSUF_ExplorerTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -32,5 +31,4 @@ class CSUF_ExplorerTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

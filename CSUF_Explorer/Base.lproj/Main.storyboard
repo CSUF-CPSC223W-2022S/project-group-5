@@ -2,8 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S9E-EB-UvB">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -34,8 +34,8 @@
         <scene sceneID="bpP-Vz-LCh">
             <objects>
                 <viewControllerPlaceholder storyboardName="Feature1Storyboard" id="6Vf-kb-Xph" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="JaC-bL-ceV">
-                        <color key="badgeColor" systemColor="systemRedColor"/>
+                    <tabBarItem key="tabBarItem" title="Map" selectedImage="map" catalog="system" id="JaC-bL-ceV" propertyAccessControl="none">
+                        <imageReference key="image" image="map" catalog="system" symbolScale="medium"/>
                     </tabBarItem>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ErJ-20-bGv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -74,14 +74,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="map" catalog="system" width="128" height="110"/>
     </resources>
 </document>

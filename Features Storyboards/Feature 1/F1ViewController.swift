@@ -99,13 +99,6 @@ class SB1ViewController: UIViewController {
             //Buidlings
             Building(name: "Computer Science", lattitude: 33.88230404521395, longtitude: -117.8826660545732),
             Building(name: "Engineering", lattitude: 33.882312952126945, longtitude: -117.88322931846633),
-//            Building(name: "Name", lattitude: , longtitude: -),
-//            Building(name: "Name", lattitude: , longtitude: -),
-//            Building(name: "Name", lattitude: , longtitude: -),
-//            Building(name: "Name", lattitude: , longtitude: -),
-//            Building(name: "Name", lattitude: , longtitude: -),
-//            Building(name: "Name", lattitude: , longtitude: -),
-//            Building(name: "Name", lattitude: , longtitude: -),
             Building(name: "Education-Classroom", lattitude: 33.88129, longtitude: -117.884277),
             Building(name: "Ruby Gerontology Center", lattitude: 33.883597, longtitude: -117.883245),
             Building(name: "Kinesiology & Health Science", lattitude: 33.882813, longtitude: -117.885428),
@@ -142,5 +135,9 @@ class SB1ViewController: UIViewController {
             mapView.addAnnotation(annotation)
         }
     }
+    
+    
+    
+    
     
 }

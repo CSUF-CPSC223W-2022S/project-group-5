@@ -77,16 +77,60 @@ class SB1ViewController: UIViewController {
     
     func getBuildingLocation() -> [Building]{
         return [
-            Building(name: "Titan Shops", lattitude: 33.881860925118076, longtitude: -117.88689858039857),
+            //Shops & Anemities
+            Building(name: "Titan Shops (Bookstore)", lattitude: 33.881860925118076, longtitude: -117.88689858039857),
             Building(name: "Titan Student Union", lattitude: 33.88143338998001, longtitude: -117.8876066835785),
-            Building(name: "Mihaylo Building", lattitude: 33.87867662759899, longtitude: -117.883358064499),
-            Building(name: "Carl's Jr.", lattitude: 33.87933799147634, longtitude: -117.8838703664209),
-            Building(name: "Computer Science Building", lattitude: 33.88230404521395, longtitude: -117.8826660545732),
-            Building(name: "Computer Engineering Building", lattitude: 33.882312952126945, longtitude: -117.88322931846633),
             Building(name: "Titan Gymasium", lattitude: 33.88305222266506, longtitude: -117.88613951524749),
-            Building(name: "Pollak Library", lattitude: 33.881355453656326, longtitude: -117.88541531881347)
+            Building(name: "Pollak Library", lattitude: 33.881355453656326, longtitude: -117.88541531881347),
+            Building(name: "Student Housing", lattitude: 33.883633, longtitude: -117.882314),
+            Building(name: "Titan House", lattitude: 33.883851, longtitude: -117.884157),
+            Building(name: "University Police", lattitude: 33.882996, longtitude: -117.889363),
+            Building(name: "Student Health & Counseling Center", lattitude: 33.882963, longtitude: -117.884223),
+            Building(name: "Student Rec Center", lattitude: 33.882957, longtitude: -117.8878),
+            Building(name: "Children's Center", lattitude: 33.88605, longtitude: -117.888188),
+            Building(name: "Parking & Transportation Office", lattitude: 33.884841, longtitude: -117.889424),
+            
+            //Food
+            Building(name: "Gastronome", lattitude: 33.883108, longtitude: -117.882469),
+            Building(name: "Carl's Jr.", lattitude: 33.87933799147634, longtitude: -117.8838703664209),
+            Building(name: "Aloha Java", lattitude: 33.880135, longtitude: -117.884015),
+            Building(name: "Brief Stop (Langsdorf Hall", lattitude: 33.879004, longtitude: -117.884611),
+
+            //Buidlings
+            Building(name: "Computer Science", lattitude: 33.88230404521395, longtitude: -117.8826660545732),
+            Building(name: "Engineering", lattitude: 33.882312952126945, longtitude: -117.88322931846633),
+//            Building(name: "Name", lattitude: , longtitude: -),
+//            Building(name: "Name", lattitude: , longtitude: -),
+//            Building(name: "Name", lattitude: , longtitude: -),
+//            Building(name: "Name", lattitude: , longtitude: -),
+//            Building(name: "Name", lattitude: , longtitude: -),
+//            Building(name: "Name", lattitude: , longtitude: -),
+//            Building(name: "Name", lattitude: , longtitude: -),
+            Building(name: "Education-Classroom", lattitude: 33.88129, longtitude: -117.884277),
+            Building(name: "Ruby Gerontology Center", lattitude: 33.883597, longtitude: -117.883245),
+            Building(name: "Kinesiology & Health Science", lattitude: 33.882813, longtitude: -117.885428),
+            Building(name: "Humanities-Social Science", lattitude: 33.880453, longtitude: -117.88435),
+            Building(name: "Clayes Performing Arts Center", lattitude: 33.88048, longtitude: -117.886729),
+            Building(name: "Visual Arts", lattitude: 33.880426, longtitude: -117.888317),
+            Building(name: "McCarthy Hall", lattitude: 33.879647, longtitude: -117.885699),
+            Building(name: "Dan Black Hall", lattitude: 33.879135, longtitude: -117.885841),
+            Building(name: "Gordon Hall (University Hall)", lattitude: 33.879651, longtitude: -117.88416),
+            Building(name: "Langsdorf Hall", lattitude: 33.878997, longtitude: -117.88435),
+            Building(name: "Mihaylo Hall", lattitude: 33.87867662759899, longtitude: -117.883358064499),
+            Building(name: "College Park", lattitude: 33.877589, longtitude: -117.883387),
+            
+            //Parkings
+            Building(name: "Lot G", lattitude: 33.888339, longtitude: -117.886629),
+            Building(name: "Lot A", lattitude: 33.887062, longtitude: -117.889013),
+            Building(name: "Lot D", lattitude: 33.884096, longtitude: -117.887807),
+            Building(name: "State College Parking Structure", lattitude: 33.882399, longtitude: -117.888808),
+            Building(name: "Eastside Parking Structure New", lattitude: 33.880288, longtitude: -117.881783),
+            Building(name: "Eastside Parking Structure Old", lattitude: 33.880288, longtitude: -117.881791),
+            Building(name: "Nutwood Parking Structure", lattitude: 33.879028, longtitude: -117.888443),
+            Building(name: "Lot S", lattitude: 33.876204, longtitude: -117.883342)
         ]
         //https://www.gps-coordinates.net
+        //Building(name: "Name", lattitude: , longtitude: -),
     }
     
     func setAnnotation(Buildings:[Building]){

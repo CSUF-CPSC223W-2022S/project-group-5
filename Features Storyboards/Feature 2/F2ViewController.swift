@@ -11,6 +11,7 @@ class F2ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: LocationCard.id, for: indexPath) as! LocationCard
         cell.configure(location: locationList[indexPath.section])
+        cell.selectionStyle = .none
         return cell
     }
 
@@ -28,13 +29,8 @@ class F2ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
         return 267
     }
-
-//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        return 20
-//    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
@@ -58,5 +54,22 @@ class F2ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
         locationTable.register(LocationCard.nib(), forCellReuseIdentifier: LocationCard.id)
         locationTable.delegate = self
         locationTable.dataSource = self
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let locationSelected = locationList[indexPath.section]
+//        if let vc = storyboard?.instantiateViewController(withIdentifier: "LocationVC") as? LocationCardViewController {
+//            vc.location = locationSelected
+//            navigationController?.pushViewController(vc, animated: true)
+//        }
+        performSegue(withIdentifier: "LocationCard", sender: indexPath.section)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? LocationCardViewController,
+           let blogIndex = sender as? Int
+        {
+            destination.location = locationList[blogIndex]
+        }
     }
 }

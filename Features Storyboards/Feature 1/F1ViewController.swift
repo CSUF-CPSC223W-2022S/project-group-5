@@ -14,7 +14,7 @@ struct Building {
   var longtitude: CLLocationDegrees
 }
 
-class SB1ViewController: UIViewController {
+class SB1ViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
     let radius: CLLocationDistance = 700
@@ -25,6 +25,9 @@ class SB1ViewController: UIViewController {
         super.viewDidLoad()
         setStartingPosition()
         let Buildings = getBuildingLocation()
+        //new
+        self.mapView.delegate = self
+        //end
         setAnnotation(Buildings: Buildings)
         self.tabBarItem.image = UIImage(named: "CSUF MAP")
     }
@@ -136,8 +139,16 @@ class SB1ViewController: UIViewController {
         }
     }
     
-    
-    
-    
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        if let annotation = view.annotation as? MKPointAnnotation {
+            if annotation.title == "Carl's Jr." {
+                
+                
+            }
+                
+            //add new views
+        }
+    }
+
     
 }

@@ -32,16 +32,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nJP-Rz-00D">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QeQ-m4-S3e"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.46274507050000002" blue="0.1686274707" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="nJP-Rz-00D" firstAttribute="leading" secondItem="QeQ-m4-S3e" secondAttribute="leading" id="9oc-G4-gVP"/>
-                            <constraint firstItem="nJP-Rz-00D" firstAttribute="bottom" secondItem="QeQ-m4-S3e" secondAttribute="bottom" constant="83" id="TlD-KM-PK3"/>
-                            <constraint firstItem="QeQ-m4-S3e" firstAttribute="top" secondItem="nJP-Rz-00D" secondAttribute="top" constant="88" id="ijX-8W-a3F"/>
-                            <constraint firstItem="QeQ-m4-S3e" firstAttribute="trailing" secondItem="nJP-Rz-00D" secondAttribute="trailing" id="tT8-RN-Fhw"/>
+                            <constraint firstItem="nJP-Rz-00D" firstAttribute="bottom" secondItem="QeQ-m4-S3e" secondAttribute="bottom" id="56m-Vf-Ptu"/>
+                            <constraint firstItem="QeQ-m4-S3e" firstAttribute="trailing" secondItem="nJP-Rz-00D" secondAttribute="trailing" id="GxS-Br-y7I"/>
+                            <constraint firstItem="QeQ-m4-S3e" firstAttribute="top" secondItem="nJP-Rz-00D" secondAttribute="top" id="hDV-Gg-ZxT"/>
+                            <constraint firstItem="nJP-Rz-00D" firstAttribute="leading" secondItem="QeQ-m4-S3e" secondAttribute="leading" id="tMe-VC-YR9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uq5-GI-PCV"/>

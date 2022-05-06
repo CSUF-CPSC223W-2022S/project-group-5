@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mgc-GX-Ibj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mgc-GX-Ibj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,9 +12,12 @@
         <scene sceneID="M5o-Da-CO7">
             <objects>
                 <navigationController title="Feature 4" id="mgc-GX-Ibj" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aBH-bS-WMQ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="aBH-bS-WMQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="SGz-cF-4wx" kind="relationship" relationship="rootViewController" id="FTl-v5-RLy"/>
@@ -24,26 +27,57 @@
             </objects>
             <point key="canvasLocation" x="-325" y="154"/>
         </scene>
-        <!--View Controller-->
+        <!--CSUF Expanded-->
         <scene sceneID="GQP-cw-3Ly">
             <objects>
                 <viewController id="SGz-cF-4wx" customClass="F4ViewController" customModule="CSUF_Explorer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tGP-cA-BX0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Kpc-Ck-TVe">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" name="CSUForange"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="nearbyViewCell" id="RSO-ID-gYJ">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RSO-ID-gYJ" id="IfF-3p-YYw">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ayN-4C-Ari"/>
-                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <color key="backgroundColor" name="CSUFblue"/>
+                        <constraints>
+                            <constraint firstItem="ayN-4C-Ari" firstAttribute="bottom" secondItem="Kpc-Ck-TVe" secondAttribute="bottom" id="2hd-Vw-Xdt"/>
+                            <constraint firstItem="Kpc-Ck-TVe" firstAttribute="leading" secondItem="ayN-4C-Ari" secondAttribute="leading" id="MCA-vY-RHa"/>
+                            <constraint firstItem="Kpc-Ck-TVe" firstAttribute="top" secondItem="ayN-4C-Ari" secondAttribute="top" id="NLO-zy-BD0"/>
+                            <constraint firstItem="ayN-4C-Ari" firstAttribute="trailing" secondItem="Kpc-Ck-TVe" secondAttribute="trailing" id="yIT-f1-lWF"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="B2x-aA-VJ6"/>
+                    <tabBarItem key="tabBarItem" title="Nearby" image="circle.grid.hex" catalog="system" id="8Oa-7q-DuH"/>
+                    <navigationItem key="navigationItem" title="CSUF Expanded" id="Dpf-yQ-wiI"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="nearbytableView" destination="Kpc-Ck-TVe" id="XbJ-2k-BUv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2f8-qL-J4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="507" y="157"/>
+            <point key="canvasLocation" x="505.79710144927537" y="156.69642857142856"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="circle.grid.hex" catalog="system" width="128" height="112"/>
+        <namedColor name="CSUFblue">
+            <color red="0.017927994950000001" green="0.1537679434" blue="0.29703062769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CSUForange">
+            <color red="0.88012772800000005" green="0.44111984970000001" blue="0.18741405010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

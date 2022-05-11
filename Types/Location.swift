@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+
 class Location {
     var lat: Double
     var long: Double
@@ -23,6 +25,7 @@ class Location {
         self.name = name
     }
 
+    
     static func ==(left: Location, right: String) -> Bool {
         return left.name == right
     }

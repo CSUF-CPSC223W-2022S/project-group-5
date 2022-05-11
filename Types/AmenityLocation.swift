@@ -12,4 +12,8 @@ class AmenityLocation: Location {
         super.init(lat: lat, long: long, name: name)
         self.type = type
     }
+    
+    required init(from decoder: Decoder) throws {
+        fatalError("init(from:) has not been implemented")
+    }
 }

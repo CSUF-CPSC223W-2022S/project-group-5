@@ -15,4 +15,8 @@ class FoodLocation: Location {
         super.init(lat: lat, long: long, name: name)
         self.type = "food"
     }
+    
+    required init(from decoder: Decoder) throws {
+        fatalError("init(from:) has not been implemented")
+    }
 }

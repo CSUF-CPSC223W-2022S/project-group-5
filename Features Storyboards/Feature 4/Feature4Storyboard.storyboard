@@ -35,17 +35,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Kpc-Ck-TVe">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="128" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Kpc-Ck-TVe">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" name="CSUForange"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="nearbyViewCell" id="RSO-ID-gYJ">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="nearbyCell" id="KUy-YM-y01" customClass="NearbyTableViewCell" customModule="CSUF_Explorer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="128"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RSO-ID-gYJ" id="IfF-3p-YYw">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KUy-YM-y01" id="Rtn-As-rNW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQ1-Ad-GfC">
+                                                    <rect key="frame" x="10" y="5" width="394" height="118"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LWF-5h-B6j">
+                                                            <rect key="frame" x="268" y="15" width="118" height="88"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMo-Rk-XsO">
+                                                            <rect key="frame" x="5" y="5" width="163" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HdT-el-d78">
+                                                            <rect key="frame" x="5" y="50" width="97" height="18"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSD-fR-218">
+                                                            <rect key="frame" x="5" y="30" width="132" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOO-I2-yDh">
+                                                            <rect key="frame" x="5" y="68" width="124" height="24"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" name="CSUFblue"/>
+                                                    <constraints>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="5" id="731-hB-4fK"/>
+                                                        <constraint firstAttribute="bottom" secondItem="LWF-5h-B6j" secondAttribute="bottom" constant="15" id="FKX-Rd-Ezf"/>
+                                                        <constraint firstItem="LWF-5h-B6j" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="15" id="QsU-Ju-oVD"/>
+                                                        <constraint firstItem="uOO-I2-yDh" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="TE6-fc-oA1"/>
+                                                        <constraint firstItem="qSD-fR-218" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="30" id="VBx-Ao-6wJ"/>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="5" id="bt3-Ds-hJi"/>
+                                                        <constraint firstItem="HdT-el-d78" firstAttribute="top" secondItem="WMo-Rk-XsO" secondAttribute="bottom" constant="15" id="enL-Qv-kwC"/>
+                                                        <constraint firstAttribute="trailing" secondItem="LWF-5h-B6j" secondAttribute="trailing" constant="5" id="etO-JQ-ZL8"/>
+                                                        <constraint firstItem="HdT-el-d78" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="fh6-VC-nt7"/>
+                                                        <constraint firstItem="uOO-I2-yDh" firstAttribute="top" secondItem="HdT-el-d78" secondAttribute="bottom" id="kaS-5J-xQs"/>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="o6j-xX-gXG"/>
+                                                        <constraint firstItem="qSD-fR-218" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="oKT-Uu-eGt"/>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="ug0-Ve-OFz"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rQ1-Ad-GfC" firstAttribute="leading" secondItem="Rtn-As-rNW" secondAttribute="leading" constant="10" id="4Db-tC-ybW"/>
+                                                <constraint firstAttribute="bottom" secondItem="rQ1-Ad-GfC" secondAttribute="bottom" constant="5" id="GC5-Ar-0se"/>
+                                                <constraint firstItem="rQ1-Ad-GfC" firstAttribute="top" secondItem="Rtn-As-rNW" secondAttribute="top" constant="5" id="GvD-Bj-12O"/>
+                                                <constraint firstAttribute="trailing" secondItem="rQ1-Ad-GfC" secondAttribute="trailing" constant="10" id="Owi-J1-rE4"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" name="CSUForange"/>
+                                        <connections>
+                                            <outlet property="cellView" destination="rQ1-Ad-GfC" id="SXl-rn-j6G"/>
+                                            <outlet property="locationAddress" destination="qSD-fR-218" id="Ivu-Dd-f2T"/>
+                                            <outlet property="locationImage" destination="LWF-5h-B6j" id="dMT-OF-bcJ"/>
+                                            <outlet property="locationName" destination="WMo-Rk-XsO" id="M7T-GZ-Rb1"/>
+                                            <outlet property="locationTime" destination="uOO-I2-yDh" id="1x6-g9-VbG"/>
+                                            <outlet property="locationType" destination="HdT-el-d78" id="5LV-b5-s8q"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -74,10 +139,10 @@
     <resources>
         <image name="circle.grid.hex" catalog="system" width="128" height="112"/>
         <namedColor name="CSUFblue">
-            <color red="0.017927994950000001" green="0.1537679434" blue="0.29703062769999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.017999999225139618" green="0.15399999916553497" blue="0.29699999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="CSUForange">
-            <color red="0.88012772800000005" green="0.44111984970000001" blue="0.18741405010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.87999999523162842" green="0.44100001454353333" blue="0.18700000643730164" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

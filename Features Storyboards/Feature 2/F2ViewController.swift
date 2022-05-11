@@ -19,13 +19,21 @@ class F2ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
     func addLocations() {
         let location1 = FoodLocation(lat: 1.2, long: 1.2, name: "Carl's Jr")
         location1.address = "800 N State College Blvd"
-        location1.hours["monday"] = "10am to 10pm"
+        location1.hours["Wednesday"] = "10am to 10pm"
+        location1.logo = "carlsjr"
         locationList.append(location1)
 
         let location2 = FoodLocation(lat: 1.2, long: 1.2, name: "Starbucks")
         location2.address = "Library"
-        location2.hours["monday"] = "10am to 10pm"
+        location2.hours["Wednesday"] = "10am to 10pm"
+        location2.logo = "starbucks"
         locationList.append(location2)
+
+        let location3 = FoodLocation(lat: 1.2, long: 1.2, name: "Titan Gym")
+        location3.address = "800 N State College Blvd"
+        location3.hours["Wednesdays"] = "10am to 10pm"
+        location3.logo = "gym"
+        locationList.append(location3)
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

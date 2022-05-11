@@ -8,6 +8,7 @@
 import UIKit
 
 class LocationCardViewController: UIViewController {
+    @IBOutlet var locationImage: UIImageView!
     @IBOutlet var LocationLabel: UILabel!
     var location: Location = .init(lat: 0, long: 0, name: "")
 
@@ -15,6 +16,7 @@ class LocationCardViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         LocationLabel.text = location.name
+        locationImage.image = UIImage(named: (location.logo ?? "csuf") + "_image")
     }
 
     /*

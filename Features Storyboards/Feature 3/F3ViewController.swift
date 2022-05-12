@@ -7,28 +7,27 @@
 
 import UIKit
 
-class F3ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
+class F3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var reviewList = [Reviews]()
-    
-    func loadReviews() {
-        //let location1 = Reviews(id: 1, place_id: 1, name: "abc", star: 5, comment: "abc", description: "abc", avartar: nil)
-        //locationList.append(location1)
 
-        //let location2 = Reviews(id: 2, place_id: 2, name: "def", star: 5, comment: "def", description: "def", avartar: nil)
-        //locationList.append(location2)
-        
+    func loadReviews() {
+        // let location1 = Reviews(id: 1, place_id: 1, name: "abc", star: 5, comment: "abc", description: "abc", avartar: nil)
+        // locationList.append(location1)
+
+        // let location2 = Reviews(id: 2, place_id: 2, name: "def", star: 5, comment: "def", description: "def", avartar: nil)
+        // locationList.append(location2)
+
         let db = DBConnect()
         reviewList = db.getAllReviews()
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCell.id, for: indexPath) as! CustomTableViewCell
         cell.configure(review: reviewList[indexPath.section])
         return cell
     }
-    
+
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
         return 150
     }
 
@@ -45,7 +44,6 @@ class F3ViewController: UIViewController , UITableViewDelegate, UITableViewDataS
         headerView.backgroundColor = UIColor.clear
         return headerView
     }
-    
 
     @IBOutlet var tableView: UITableView!
     override func viewDidLoad() {
@@ -55,15 +53,12 @@ class F3ViewController: UIViewController , UITableViewDelegate, UITableViewDataS
         tableView.register(CustomTableViewCell.nib(), forCellReuseIdentifier: CustomTableViewCell.id)
         tableView.delegate = self
         tableView.dataSource = self
-        //self.view.layoutIfNeeded()
+        // self.view.layoutIfNeeded()
     }
-    
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         loadReviews()
         tableView.reloadData()
     }
-    
-
 }

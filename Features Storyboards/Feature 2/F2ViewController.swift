@@ -17,21 +17,42 @@ class F2ViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
 
     var locationList = [FoodLocation]()
     func addLocations() {
-        let location1 = FoodLocation(lat: 1.2, long: 1.2, name: "Carl's Jr")
+        let location1 = FoodLocation(lat: 33.87933799147634, long: -117.8838703664209, name: "Carl's Jr")
         location1.address = "800 N State College Blvd"
-        location1.hours["Wednesday"] = "10am to 10pm"
+        location1.hours["Monday"] = "7AM–11PM"
+        location1.hours["Tuesday"] = "7AM–9PM"
+        location1.hours["Wednesday"] = "7AM–9PM"
+        location1.hours["Thursday"] = "7AM–9PM"
+        location1.hours["Friday"] = "7AM–3PM"
+        location1.hours["Saturday"] = "10AM–2PM"
+        location1.hours["Sunday"] = "Open 24 hours"
+
         location1.logo = "carlsjr"
         locationList.append(location1)
 
-        let location2 = FoodLocation(lat: 1.2, long: 1.2, name: "Starbucks")
+        let location2 = FoodLocation(lat: 33.881120861504854, long: -117.8853552354667, name: "Starbucks")
         location2.address = "Library"
-        location2.hours["Wednesday"] = "10am to 10pm"
+        location1.address = "800 N State College Blvd"
+        location2.hours["Monday"] = "7:30AM-7PM"
+        location2.hours["Tuesday"] = "7:30AM-7PM"
+        location2.hours["Wednesday"] = "7:30AM-7PM"
+        location2.hours["Thursday"] = "7:30AM-7PM"
+        location2.hours["Friday"] = "7:30AM-4PM "
+        location2.hours["Saturday"] = "Closed"
+        location2.hours["Sunday"] = "Closed"
         location2.logo = "starbucks"
         locationList.append(location2)
 
-        let location3 = FoodLocation(lat: 1.2, long: 1.2, name: "Titan Gym")
+        let location3 = FoodLocation(lat: 33.88306500893567, long: -117.88752082587962, name: "Titan Gym")
         location3.address = "800 N State College Blvd"
-        location3.hours["Wednesdays"] = "10am to 10pm"
+        location3.address = "800 N State College Blvd"
+        location3.hours["Monday"] = "6AM–12AM"
+        location3.hours["Tuesday"] = "6AM–12AM"
+        location3.hours["Wednesday"] = "6AM–12AM"
+        location3.hours["Thursday"] = "6AM–12AM"
+        location3.hours["Friday"] = "6AM–12AM"
+        location3.hours["Saturday"] = "8AM–10PM"
+        location3.hours["Sunday"] = "8AM–10PM"
         location3.logo = "gym"
         locationList.append(location3)
     }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mgc-GX-Ibj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mgc-GX-Ibj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,9 +12,12 @@
         <scene sceneID="M5o-Da-CO7">
             <objects>
                 <navigationController title="Feature 4" id="mgc-GX-Ibj" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aBH-bS-WMQ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="aBH-bS-WMQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="SGz-cF-4wx" kind="relationship" relationship="rootViewController" id="FTl-v5-RLy"/>
@@ -24,26 +27,122 @@
             </objects>
             <point key="canvasLocation" x="-325" y="154"/>
         </scene>
-        <!--View Controller-->
+        <!--CSUF Expanded-->
         <scene sceneID="GQP-cw-3Ly">
             <objects>
                 <viewController id="SGz-cF-4wx" customClass="F4ViewController" customModule="CSUF_Explorer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tGP-cA-BX0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="128" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Kpc-Ck-TVe">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" name="CSUForange"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="nearbyCell" id="KUy-YM-y01" customClass="NearbyTableViewCell" customModule="CSUF_Explorer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KUy-YM-y01" id="Rtn-As-rNW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQ1-Ad-GfC">
+                                                    <rect key="frame" x="10" y="5" width="394" height="118"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LWF-5h-B6j">
+                                                            <rect key="frame" x="268" y="15" width="118" height="88"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMo-Rk-XsO">
+                                                            <rect key="frame" x="5" y="5" width="163" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HdT-el-d78">
+                                                            <rect key="frame" x="5" y="50" width="97" height="18"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSD-fR-218">
+                                                            <rect key="frame" x="5" y="30" width="132" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOO-I2-yDh">
+                                                            <rect key="frame" x="5" y="68" width="124" height="24"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" name="CSUFblue"/>
+                                                    <constraints>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="5" id="731-hB-4fK"/>
+                                                        <constraint firstAttribute="bottom" secondItem="LWF-5h-B6j" secondAttribute="bottom" constant="15" id="FKX-Rd-Ezf"/>
+                                                        <constraint firstItem="LWF-5h-B6j" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="15" id="QsU-Ju-oVD"/>
+                                                        <constraint firstItem="uOO-I2-yDh" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="TE6-fc-oA1"/>
+                                                        <constraint firstItem="qSD-fR-218" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="30" id="VBx-Ao-6wJ"/>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="5" id="bt3-Ds-hJi"/>
+                                                        <constraint firstItem="HdT-el-d78" firstAttribute="top" secondItem="WMo-Rk-XsO" secondAttribute="bottom" constant="15" id="enL-Qv-kwC"/>
+                                                        <constraint firstAttribute="trailing" secondItem="LWF-5h-B6j" secondAttribute="trailing" constant="5" id="etO-JQ-ZL8"/>
+                                                        <constraint firstItem="HdT-el-d78" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="fh6-VC-nt7"/>
+                                                        <constraint firstItem="uOO-I2-yDh" firstAttribute="top" secondItem="HdT-el-d78" secondAttribute="bottom" id="kaS-5J-xQs"/>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="o6j-xX-gXG"/>
+                                                        <constraint firstItem="qSD-fR-218" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="oKT-Uu-eGt"/>
+                                                        <constraint firstItem="WMo-Rk-XsO" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="ug0-Ve-OFz"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rQ1-Ad-GfC" firstAttribute="leading" secondItem="Rtn-As-rNW" secondAttribute="leading" constant="10" id="4Db-tC-ybW"/>
+                                                <constraint firstAttribute="bottom" secondItem="rQ1-Ad-GfC" secondAttribute="bottom" constant="5" id="GC5-Ar-0se"/>
+                                                <constraint firstItem="rQ1-Ad-GfC" firstAttribute="top" secondItem="Rtn-As-rNW" secondAttribute="top" constant="5" id="GvD-Bj-12O"/>
+                                                <constraint firstAttribute="trailing" secondItem="rQ1-Ad-GfC" secondAttribute="trailing" constant="10" id="Owi-J1-rE4"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="CSUForange"/>
+                                        <connections>
+                                            <outlet property="cellView" destination="rQ1-Ad-GfC" id="SXl-rn-j6G"/>
+                                            <outlet property="locationAddress" destination="qSD-fR-218" id="Ivu-Dd-f2T"/>
+                                            <outlet property="locationImage" destination="LWF-5h-B6j" id="dMT-OF-bcJ"/>
+                                            <outlet property="locationName" destination="WMo-Rk-XsO" id="M7T-GZ-Rb1"/>
+                                            <outlet property="locationTime" destination="uOO-I2-yDh" id="1x6-g9-VbG"/>
+                                            <outlet property="locationType" destination="HdT-el-d78" id="5LV-b5-s8q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ayN-4C-Ari"/>
-                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <color key="backgroundColor" name="CSUFblue"/>
+                        <constraints>
+                            <constraint firstItem="ayN-4C-Ari" firstAttribute="bottom" secondItem="Kpc-Ck-TVe" secondAttribute="bottom" id="2hd-Vw-Xdt"/>
+                            <constraint firstItem="Kpc-Ck-TVe" firstAttribute="leading" secondItem="ayN-4C-Ari" secondAttribute="leading" id="MCA-vY-RHa"/>
+                            <constraint firstItem="Kpc-Ck-TVe" firstAttribute="top" secondItem="ayN-4C-Ari" secondAttribute="top" id="NLO-zy-BD0"/>
+                            <constraint firstItem="ayN-4C-Ari" firstAttribute="trailing" secondItem="Kpc-Ck-TVe" secondAttribute="trailing" id="yIT-f1-lWF"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="B2x-aA-VJ6"/>
+                    <tabBarItem key="tabBarItem" title="Nearby" image="circle.grid.hex" catalog="system" id="8Oa-7q-DuH"/>
+                    <navigationItem key="navigationItem" title="CSUF Expanded" id="Dpf-yQ-wiI"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="nearbytableView" destination="Kpc-Ck-TVe" id="XbJ-2k-BUv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2f8-qL-J4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="507" y="157"/>
+            <point key="canvasLocation" x="505.79710144927537" y="156.69642857142856"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="circle.grid.hex" catalog="system" width="128" height="112"/>
+        <namedColor name="CSUFblue">
+            <color red="0.017999999225139618" green="0.15399999916553497" blue="0.29699999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CSUForange">
+            <color red="0.87999999523162842" green="0.44100001454353333" blue="0.18700000643730164" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

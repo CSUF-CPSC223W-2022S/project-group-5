@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62B8EEDA282C474600A986A0 /* NearbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8EED9282C474600A986A0 /* NearbyTableViewCell.swift */; };
+		62B8EEDC282C54C200A986A0 /* NearbyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B8EEDB282C54C200A986A0 /* NearbyLocation.swift */; };
 		6306C67127E5AC8000F17661 /* F2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C67027E5AC8000F17661 /* F2ViewController.swift */; };
 		6306C67327E5AC9100F17661 /* F3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C67227E5AC9100F17661 /* F3ViewController.swift */; };
 		6306C67527E5AC9A00F17661 /* F4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C67427E5AC9A00F17661 /* F4ViewController.swift */; };
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62B8EED9282C474600A986A0 /* NearbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyTableViewCell.swift; sourceTree = "<group>"; };
+		62B8EEDB282C54C200A986A0 /* NearbyLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyLocation.swift; sourceTree = "<group>"; };
 		6306C67027E5AC8000F17661 /* F2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F2ViewController.swift; sourceTree = "<group>"; };
 		6306C67227E5AC9100F17661 /* F3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F3ViewController.swift; sourceTree = "<group>"; };
 		6306C67427E5AC9A00F17661 /* F4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F4ViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 			children = (
 				63E4796227D914850066A71E /* Feature4Storyboard.storyboard */,
 				6306C67427E5AC9A00F17661 /* F4ViewController.swift */,
+				62B8EED9282C474600A986A0 /* NearbyTableViewCell.swift */,
 			);
 			path = "Feature 4";
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				635D59DF27D937EA00F98001 /* AmenityLocation.swift */,
 				635D59E027D937EA00F98001 /* FoodLocation.swift */,
 				63B9DF4B27DD13D7002D3C53 /* SearchLocation.swift */,
+				62B8EEDB282C54C200A986A0 /* NearbyLocation.swift */,
 				638782152824287500A23901 /* GetLocations.swift */,
 			);
 			path = Types;
@@ -412,10 +418,12 @@
 				6306C67C27E64D6D00F17661 /* FoodLocation.swift in Sources */,
 				6306C67127E5AC8000F17661 /* F2ViewController.swift in Sources */,
 				6306C67A27E64D5800F17661 /* Location.swift in Sources */,
+				62B8EEDA282C474600A986A0 /* NearbyTableViewCell.swift in Sources */,
 				6306C67527E5AC9A00F17661 /* F4ViewController.swift in Sources */,
 				634830D527FF414400427DDF /* LocationCardViewController.swift in Sources */,
 				63CED5AE27D7C3FA008D0E04 /* SceneDelegate.swift in Sources */,
 				631C6B5B27DA5F6200ACDAED /* F1ViewController.swift in Sources */,
+				62B8EEDC282C54C200A986A0 /* NearbyLocation.swift in Sources */,
 				6306C67D27E64D7000F17661 /* SearchLocation.swift in Sources */,
 				6306C67327E5AC9100F17661 /* F3ViewController.swift in Sources */,
 				638782162824287500A23901 /* GetLocations.swift in Sources */,
@@ -607,6 +615,9 @@
 				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CSUF_Explorer/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To access location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "To access location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To access location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -637,6 +648,9 @@
 				DEVELOPMENT_TEAM = 8C98UT3J6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CSUF_Explorer/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To access location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "To access location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To access location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

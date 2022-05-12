@@ -37,7 +37,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="128" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Kpc-Ck-TVe">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" name="CSUForange"/>
+                                <color key="backgroundColor" name="CSUFblue"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="nearbyCell" id="KUy-YM-y01" customClass="NearbyTableViewCell" customModule="CSUF_Explorer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="128"/>
@@ -49,9 +49,6 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQ1-Ad-GfC">
                                                     <rect key="frame" x="10" y="5" width="394" height="118"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LWF-5h-B6j">
-                                                            <rect key="frame" x="268" y="15" width="118" height="88"/>
-                                                        </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMo-Rk-XsO">
                                                             <rect key="frame" x="5" y="5" width="163" height="30"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -76,17 +73,25 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NearbyStock" translatesAutoresizingMaskIntoConstraints="NO" id="LWF-5h-B6j">
+                                                            <rect key="frame" x="329" y="63" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="50" id="ArE-hu-FRw"/>
+                                                                <constraint firstAttribute="width" constant="50" id="Azr-mg-8PU"/>
+                                                            </constraints>
+                                                        </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" name="CSUFblue"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="WMo-Rk-XsO" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="5" id="731-hB-4fK"/>
-                                                        <constraint firstAttribute="bottom" secondItem="LWF-5h-B6j" secondAttribute="bottom" constant="15" id="FKX-Rd-Ezf"/>
-                                                        <constraint firstItem="LWF-5h-B6j" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="15" id="QsU-Ju-oVD"/>
+                                                        <constraint firstAttribute="bottom" secondItem="LWF-5h-B6j" secondAttribute="bottom" constant="5" id="Ff2-Hn-JDQ"/>
+                                                        <constraint firstAttribute="trailing" secondItem="LWF-5h-B6j" secondAttribute="trailing" constant="15" id="InG-Bd-8eG"/>
+                                                        <constraint firstAttribute="bottom" secondItem="LWF-5h-B6j" secondAttribute="bottom" constant="5" id="Q9e-yI-CFD"/>
                                                         <constraint firstItem="uOO-I2-yDh" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="TE6-fc-oA1"/>
                                                         <constraint firstItem="qSD-fR-218" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="30" id="VBx-Ao-6wJ"/>
+                                                        <constraint firstAttribute="trailing" secondItem="LWF-5h-B6j" secondAttribute="trailing" constant="15" id="YHd-fh-2dE"/>
                                                         <constraint firstItem="WMo-Rk-XsO" firstAttribute="top" secondItem="rQ1-Ad-GfC" secondAttribute="top" constant="5" id="bt3-Ds-hJi"/>
                                                         <constraint firstItem="HdT-el-d78" firstAttribute="top" secondItem="WMo-Rk-XsO" secondAttribute="bottom" constant="15" id="enL-Qv-kwC"/>
-                                                        <constraint firstAttribute="trailing" secondItem="LWF-5h-B6j" secondAttribute="trailing" constant="5" id="etO-JQ-ZL8"/>
                                                         <constraint firstItem="HdT-el-d78" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="fh6-VC-nt7"/>
                                                         <constraint firstItem="uOO-I2-yDh" firstAttribute="top" secondItem="HdT-el-d78" secondAttribute="bottom" id="kaS-5J-xQs"/>
                                                         <constraint firstItem="WMo-Rk-XsO" firstAttribute="leading" secondItem="rQ1-Ad-GfC" secondAttribute="leading" constant="5" id="o6j-xX-gXG"/>
@@ -102,7 +107,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="rQ1-Ad-GfC" secondAttribute="trailing" constant="10" id="Owi-J1-rE4"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" name="CSUForange"/>
+                                        <color key="backgroundColor" name="CSUFblue"/>
                                         <connections>
                                             <outlet property="cellView" destination="rQ1-Ad-GfC" id="SXl-rn-j6G"/>
                                             <outlet property="locationAddress" destination="qSD-fR-218" id="Ivu-Dd-f2T"/>
@@ -116,7 +121,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ayN-4C-Ari"/>
-                        <color key="backgroundColor" name="CSUFblue"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ayN-4C-Ari" firstAttribute="bottom" secondItem="Kpc-Ck-TVe" secondAttribute="bottom" id="2hd-Vw-Xdt"/>
                             <constraint firstItem="Kpc-Ck-TVe" firstAttribute="leading" secondItem="ayN-4C-Ari" secondAttribute="leading" id="MCA-vY-RHa"/>
@@ -137,12 +142,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="NearbyStock" width="512" height="512"/>
         <image name="circle.grid.hex" catalog="system" width="128" height="112"/>
         <namedColor name="CSUFblue">
             <color red="0.017999999225139618" green="0.15399999916553497" blue="0.29699999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CSUForange">
-            <color red="0.87999999523162842" green="0.44100001454353333" blue="0.18700000643730164" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
